@@ -1,0 +1,24 @@
+{
+  "stage": "1012D_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE",
+  "final_status": "XIAOJIAO_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE_PASS",
+  "marker": "ALL_1012D_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE_CHECKS_OK",
+  "zip_path": "docs/audit_packages/xiaojiao_business_model_driven_preview_page_upgrade_1012D.zip",
+  "zip_sha256": "714b64478004d33ce955acd918c542abc13201085b581fc53669da767cde49ca",
+  "zip_entry_count": 13,
+  "entries": [
+    "frontend/xiaojiao-preview.html",
+    "docs/foundation/xiaojiao_business_model_driven_preview_page_upgrade_1012D.md",
+    "docs/foundation/xiaojiao_business_model_driven_preview_page_upgrade_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/business_surface_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/home_light_entry_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/single_lesson_focus_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/material_folder_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/candidate_review_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/legacy_entry_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/business_object_state_snapshot_1012D.json",
+    "scripts/validate_xiaojiao_business_model_driven_preview_page_upgrade_1012D.py",
+    "docs/audit/xiaojiao_business_model_driven_preview_page_upgrade_1012D_result.json",
+    "docs/audit/xiaojiao_business_model_driven_preview_page_upgrade_1012D_report.md"
+  ],
+  "created_at": "2026-06-14T13:23:31.441845+00:00"
+}

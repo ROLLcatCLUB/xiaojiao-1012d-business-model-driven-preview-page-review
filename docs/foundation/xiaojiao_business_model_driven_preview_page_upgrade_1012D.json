@@ -1,0 +1,53 @@
+{
+  "stage": "1012D_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE",
+  "status": "complete_pending_validation",
+  "input_contracts": [
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/surface_model_1012C.json",
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/work_object_to_surface_mapping_1012C.json",
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/action_mapping_1012C.json",
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/render_directive_contract_1012C.json",
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/render_directive_samples_1012C.json",
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/page_business_layout_rules_1012C.json",
+    "samples/xiaojiao_core_pack_to_preview_surface_contract_1012C/legacy_entry_policy_1012C.json"
+  ],
+  "modified_files": [
+    "frontend/xiaojiao-preview.html"
+  ],
+  "generated_files": [
+    "docs/foundation/xiaojiao_business_model_driven_preview_page_upgrade_1012D.md",
+    "docs/foundation/xiaojiao_business_model_driven_preview_page_upgrade_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/business_surface_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/home_light_entry_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/single_lesson_focus_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/material_folder_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/candidate_review_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/legacy_entry_trace_1012D.json",
+    "samples/xiaojiao_business_model_driven_preview_page_upgrade_1012D/business_object_state_snapshot_1012D.json"
+  ],
+  "business_surfaces": {
+    "home_light_entry": ["lesson_design", "handout", "rubric", "resource_reference", "review_queue"],
+    "single_lesson_focus": ["lesson_design", "lesson_section", "handout", "rubric", "resource_reference", "evidence_note", "teacher_review_gate"],
+    "lesson_material_folder": ["handout", "rubric", "resource_reference", "evidence_note"],
+    "candidate_review_surface": ["handout", "rubric", "resource_reference", "teacher_review_gate"],
+    "legacy_deep_task_entry": ["agent_long_task"]
+  },
+  "flags": {
+    "material_folder_enabled": true,
+    "business_progress_enabled": true,
+    "review_queue_enabled": true,
+    "legacy_agent_as_default": false,
+    "old_strong_agent_page_preserved": true,
+    "preview_route_only": true,
+    "default_route_changed": false,
+    "teacher_review_required": true,
+    "formal_apply_performed": false,
+    "real_database_written": false,
+    "memory_written": false,
+    "Feishu_written": false,
+    "batch_generation_allowed": false,
+    "background_generation_allowed": false,
+    "new_live_provider_call": false
+  },
+  "final_status": "XIAOJIAO_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE_PASS",
+  "marker": "ALL_1012D_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE_CHECKS_OK"
+}
