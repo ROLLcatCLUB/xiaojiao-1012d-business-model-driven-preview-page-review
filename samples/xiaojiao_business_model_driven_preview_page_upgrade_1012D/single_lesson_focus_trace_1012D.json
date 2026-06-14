@@ -1,0 +1,9 @@
+{
+  "surface": "single_lesson_focus",
+  "page_section_id": "focus",
+  "teacher_scenario": "教师进入单课焦点后处理课时设计、环节时间、材料和轻记录。",
+  "visible_business": ["lesson_design", "lesson_section", "handout", "rubric", "resource_reference", "evidence_note", "teacher_review_gate"],
+  "primary_actions": ["confirm_lesson_draft", "shorten_second_activity_candidate", "open_material_folder", "add_light_record_tag"],
+  "teacher_review_required": true,
+  "formal_apply_performed": false
+}

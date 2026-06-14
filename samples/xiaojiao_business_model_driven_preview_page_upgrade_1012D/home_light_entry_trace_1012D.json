@@ -1,0 +1,12 @@
+{
+  "surface": "home_light_entry",
+  "page_section_id": "entry",
+  "teacher_scenario": "教师打开小教 preview 后先看到今天这节课和待处理材料。",
+  "visible_business": ["lesson_design", "handout", "rubric", "resource_reference", "review_queue"],
+  "primary_actions": ["open_lesson_focus", "open_material_folder", "open_legacy_entry"],
+  "flags": {
+    "business_progress_enabled": true,
+    "review_queue_enabled": true,
+    "legacy_agent_as_default": false
+  }
+}

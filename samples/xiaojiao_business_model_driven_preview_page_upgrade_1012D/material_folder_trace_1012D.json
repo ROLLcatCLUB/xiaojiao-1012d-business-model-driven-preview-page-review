@@ -1,0 +1,14 @@
+{
+  "surface": "lesson_material_folder",
+  "page_section_id": "material",
+  "teacher_scenario": "教师在本课材料夹里集中查看学习单、评价量规、资源参考和轻记录。",
+  "material_folder_enabled": true,
+  "items": [
+    {"work_object": "handout", "state": "candidate_or_not_generated", "actions": ["previewCandidate", "enterReviewGate", "deferMaterial"]},
+    {"work_object": "rubric", "state": "stub_only_or_candidate", "actions": ["createRubricStubCandidate", "deferMaterial"]},
+    {"work_object": "resource_reference", "state": "stub_only_or_candidate", "actions": ["showResourceReferenceStub", "deferMaterial"]},
+    {"work_object": "evidence_note", "state": "ready_or_note_recorded", "actions": ["recordNoteFromMaterial", "showEvidenceLog"]}
+  ],
+  "formal_export_allowed": false,
+  "real_resource_library_connected": false
+}

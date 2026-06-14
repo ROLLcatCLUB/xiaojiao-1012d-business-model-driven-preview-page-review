@@ -1,0 +1,17 @@
+{
+  "surface": "candidate_review_surface",
+  "page_section_id": "candidate",
+  "candidate_types": ["handout", "rubric", "resource_reference"],
+  "teacher_review_gate": {
+    "visible": true,
+    "required": true,
+    "decisions": ["confirm", "revise_then_confirm", "defer", "discard"],
+    "formal_apply_performed": false
+  },
+  "provider_boundary": {
+    "provider_candidate_fixture_allowed": true,
+    "new_live_provider_call": false,
+    "batch_generation_allowed": false,
+    "background_generation_allowed": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "stage": "1012D_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE",
+  "source_stage": "1012C_CORE_PACK_TO_PREVIEW_SURFACE_CONTRACT",
+  "preview_route": "frontend/xiaojiao-preview.html",
+  "surface_trace": [
+    {
+      "surface": "home_light_entry",
+      "page_section_id": "entry",
+      "visible_work_objects": ["lesson_design", "handout", "rubric", "resource_reference"],
+      "business_features": ["business_progress", "review_queue", "weak_legacy_entry"]
+    },
+    {
+      "surface": "single_lesson_focus",
+      "page_section_id": "focus",
+      "visible_work_objects": ["lesson_design", "lesson_section", "handout", "rubric", "resource_reference", "evidence_note", "teacher_review_gate"],
+      "business_features": ["material_folder_entry", "section_patch_candidate", "evidence_note"]
+    },
+    {
+      "surface": "lesson_material_folder",
+      "page_section_id": "material",
+      "visible_work_objects": ["handout", "rubric", "resource_reference", "evidence_note"],
+      "business_features": ["material_folder", "stub_candidate_actions", "review_queue"]
+    },
+    {
+      "surface": "candidate_review_surface",
+      "page_section_id": "candidate",
+      "visible_work_objects": ["handout", "rubric", "resource_reference", "teacher_review_gate"],
+      "business_features": ["candidate_metadata", "teacher_review_required", "formal_apply_blocked"]
+    },
+    {
+      "surface": "legacy_deep_task_entry",
+      "page_section_id": "legacy",
+      "visible_work_objects": ["agent_long_task"],
+      "business_features": ["weak_legacy_entry", "bot_chat_reference", "old_submission_kiosk_reference"]
+    }
+  ],
+  "boundary": {
+    "preview_route_only": true,
+    "default_route_changed": false,
+    "legacy_agent_as_default": false,
+    "formal_apply_performed": false,
+    "real_database_written": false,
+    "memory_written": false,
+    "Feishu_written": false,
+    "new_live_provider_call": false
+  }
+}

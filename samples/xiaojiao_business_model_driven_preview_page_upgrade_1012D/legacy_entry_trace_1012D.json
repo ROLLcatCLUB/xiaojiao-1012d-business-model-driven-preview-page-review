@@ -1,0 +1,11 @@
+{
+  "surface": "legacy_deep_task_entry",
+  "page_section_id": "legacy",
+  "business_role": "weak_legacy_entry",
+  "legacy_business": ["bot_chat", "agent_long_task", "old_workbench_agent_entry", "old_submission_kiosk_reference"],
+  "routing_policy": {
+    "legacy_agent_as_default": false,
+    "old_strong_agent_page_preserved": true,
+    "embedded_as_main_visual": false
+  }
+}

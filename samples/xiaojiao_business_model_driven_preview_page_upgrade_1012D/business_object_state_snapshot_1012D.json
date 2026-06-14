@@ -1,0 +1,21 @@
+{
+  "stage": "1012D_BUSINESS_MODEL_DRIVEN_PREVIEW_PAGE_UPGRADE",
+  "work_objects": {
+    "lesson_design": {"status": "draft_pending_confirmation", "surfaces": ["home_light_entry", "single_lesson_focus"], "decision": "immediate_core"},
+    "lesson_section": {"status": "draft_or_candidate_patch", "surfaces": ["single_lesson_focus"], "decision": "immediate_core"},
+    "handout": {"status": "not_generated_or_candidate_pending_review", "surfaces": ["home_light_entry", "single_lesson_focus", "lesson_material_folder", "candidate_review_surface"], "decision": "immediate_core"},
+    "rubric": {"status": "stub_only_or_candidate_pending_review", "surfaces": ["home_light_entry", "single_lesson_focus", "lesson_material_folder", "candidate_review_surface"], "decision": "preview_stub"},
+    "resource_reference": {"status": "stub_only_or_candidate_pending_review", "surfaces": ["home_light_entry", "single_lesson_focus", "lesson_material_folder", "candidate_review_surface"], "decision": "preview_stub"},
+    "evidence_note": {"status": "ready_or_note_recorded", "surfaces": ["single_lesson_focus", "lesson_material_folder"], "decision": "immediate_core"},
+    "teacher_review_gate": {"status": "required_for_candidate", "surfaces": ["candidate_review_surface"], "decision": "immediate_core"},
+    "agent_long_task": {"status": "weak_legacy_entry_only", "surfaces": ["legacy_deep_task_entry"], "decision": "legacy_entry"}
+  },
+  "flags": {
+    "material_folder_enabled": true,
+    "business_progress_enabled": true,
+    "review_queue_enabled": true,
+    "preview_route_only": true,
+    "default_route_changed": false,
+    "formal_apply_performed": false
+  }
+}
